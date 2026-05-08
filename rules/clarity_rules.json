@@ -1,0 +1,14 @@
+{
+  "clarity_types": ["清晰", "模糊"],
+  "clear_indicators": {
+    "keywords": ["因为", "所以", "首先", "然后", "具体", "明确", "确定", "清楚"],
+    "min_length": 5,
+    "has_punctuation": true
+  },
+  "vague_indicators": {
+    "keywords": ["大概", "可能", "也许", "好像", "随便", "都行", "不知道", "说不清"],
+    "too_short_threshold": 3,
+    "repetition_threshold": 0.3
+  },
+  "default_clarity": "模糊"
+}

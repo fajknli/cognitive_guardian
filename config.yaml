@@ -1,0 +1,35 @@
+# 认知姿态守护者v3.1 全局配置
+
+# 日志配置
+logging:
+  level: INFO
+  file: logs/guardian.log
+  max_bytes: 10485760
+  backup_count: 5
+
+# 数据库配置
+database:
+  path: data/guardian.db
+
+# 模型配置
+models:
+  base_dir: models/
+  profiles:
+    none: null
+    tiny: "tiny-model.gguf"
+    small: "small-model.gguf"
+    medium: "medium-model.gguf"
+  default_profile: "small"
+
+# 模式切换配置
+mode_hysteresis:
+  window_size: 3
+  switch_threshold: 2
+  confidence_threshold: 0.6
+
+# 规则配置
+rules:
+  posture_rules: rules/posture_rules.json
+  clarity_rules: rules/clarity_rules.json
+  remind_templates: rules/remind_templates.json
+  reflection_rules: rules/reflection_rules.json
