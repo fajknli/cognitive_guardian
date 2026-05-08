@@ -1,9 +1,3 @@
-<!--
-  Author:       fajknli
-  Email:        fajknli@gmail.com
-  Created Time: 2026-05-08 20:29
--->
-
 # 认知姿态守护者 v3.1
 
 ## 项目简介
@@ -157,7 +151,9 @@ pip install -r requirements.txt
 
 ## 许可证
 
-内部项目
+本项目使用 GNU Affero General Public License v3.0 (AGPL-3.0)
+
+详细内容见 [LICENSE](LICENSE) 文件
 
 ## 版本
 
